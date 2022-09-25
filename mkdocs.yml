@@ -1,0 +1,6 @@
+site_name: My Docs
+site_url: https://ryanllewellin.github.io/
+nav:
+    - Home: index.md
+    - About: about.md
+theme: readthedocs
