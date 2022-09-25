@@ -3,4 +3,34 @@ site_url: https://ryanllewellin.github.io/
 nav:
     - Home: index.md
     - About: about.md
-theme: readthedocs
+theme:
+    name: material
+    features:
+        - navigation.tracking
+        - navigation.tabs
+    palette: 
+        # Palette toggle for light mode
+        # - media: "(prefers-color-scheme: light)" 
+        - scheme: default
+          primary: deep purple
+          accent: purple
+          toggle:
+            icon: material/weather-night
+            name: Switch to dark mode
+
+        # Palette toggle for dark mode
+        # - media: "(prefers-color-scheme: dark)"
+        - scheme: slate
+          primary: deep purple
+          accent: purple
+          toggle:
+            icon: material/weather-sunny
+            name: Switch to light mode
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/RyanLlewellin
+
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ryanllewellin
