@@ -36,3 +36,16 @@ export default function MyApp() {
   border-radius: 50%;
 }
 ```
+
+## States vs Props
+States and props are the two types of models in react
+
+### States
+- Acts as a components memory
+- Keep track of information and change it in response to interactions
+- For example: a button keeping track of `isHovered` state
+
+### Props
+- Arguments you pass to a function
+- Parents will pass props to child components
+- For example: A `Form` component passing a `color` prop to a button
